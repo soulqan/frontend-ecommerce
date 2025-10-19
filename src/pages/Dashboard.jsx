@@ -14,7 +14,7 @@ import {
   WifiOutlined,
   ShoppingCartOutlined,
 } from "@ant-design/icons";
-import PurchaseForm from "../components/PurchaseForm";
+import PurchaseForm from "../components/Purchaseform";
 
 const { Title, Text } = Typography;
 
