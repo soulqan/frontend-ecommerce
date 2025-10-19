@@ -9,7 +9,7 @@
   "build": "vite build",
   "preview": "vite preview",
   "json-server": "json-server --watch db.json --port 5500",
-  "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
+  "start": "json-server --watch db.json --port ${PORT:-5500} --host 0.0.0.0"
 
 }
 ,
