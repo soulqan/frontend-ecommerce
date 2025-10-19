@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1234",
+      "name": "Admin User",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "budi",
+      "password": "password",
+      "name": "Budi",
+      "role": "customer"
+    }
+  ],
+  "packages": [
+    {
+      "id": "1",
+      "name": "Paket 3GB (7 hari)",
+      "price": 12000,
+      "validity": "7 hari"
+    },
+    {
+      "id": "2",
+      "name": "Paket 10GB (30 hari)",
+      "price": 45000,
+      "validity": "30 hari"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "userId": 2,
+      "packageId": 2,
+      "phone": "081234567890",
+      "paymentMethod": "DANA",
+      "date": "2025-10-18T09:30:00Z",
+      "status": "success"
+    },
+    {
+      "id": "e83b",
+      "userId": "1",
+      "packageId": "1",
+      "phone": "081234567890",
+      "paymentMethod": "Transfer Bank",
+      "date": "2025-10-19T00:55:09.009Z",
+      "status": "success"
+    },
+    {
+      "id": "1260",
+      "userId": "1",
+      "packageId": "1",
+      "phone": "081275824927",
+      "paymentMethod": "DANA",
+      "date": "2025-10-19T00:56:37.225Z",
+      "status": "success"
+    }
+  ]
+}
