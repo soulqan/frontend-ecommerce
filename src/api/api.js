@@ -1,7 +1,7 @@
-import axios from "axios";   // ⬅️ ini wajib!
+import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://frontend-ecommerce-production.up.railway.app", // atau 5000 kalau kamu pakai port itu
+  baseURL: "https://frontend-ecommerce-production.up.railway.app",
   timeout: 5000,
 });
 
