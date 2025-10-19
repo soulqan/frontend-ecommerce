@@ -32,8 +32,8 @@
   "transactions": [
     {
       "id": "1",
-      "userId": 2,
-      "packageId": 2,
+      "userId": "2",
+      "packageId": "2",
       "phone": "081234567890",
       "paymentMethod": "DANA",
       "date": "2025-10-18T09:30:00Z",
