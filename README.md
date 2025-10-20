@@ -12,11 +12,15 @@ https://frontend-ecommerce-lac-xi.vercel.app/
 
 Dihalaman ini pengguna dapat login menggunakan akun:
 - User Admin
+
 User: admin
+
 pass: 1234
 
 - User Non-Admin
+
 User: Budi
+
 pass: password
 
 Jika ingin mendaftar/membuat akun baru maka tekan "buat akun baru"
