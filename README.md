@@ -1,5 +1,8 @@
 # Dokumentasi WEB
 
+**Waktu Mulai Pengerjaan: 18 Oktober 2025**
+**Waktu Penyelesaian: 20 Oktober 2025**
+
 **WEB ini telah di deploy dan sudah dapat digunakan dengan cara mengakses link berikut:**
 
 https://frontend-ecommerce-lac-xi.vercel.app/
@@ -47,7 +50,7 @@ Di halaman ini berisikan paket paket yang telah dibeli oleh pengguna
 
 # Manajemen Paket (Admin)
 
-Halaman ini hanya dapat di akses oleh Admin, dan di halaman ini admin dapat melakukan modifikasi, menambah, hingga menghapus sebuah paket
+Halaman ini hanya dapat di akses oleh Admin, dan di halaman ini admin dapat melakukan modifikasi, menambah, hingga menghapus sebuah paket (CRUD)
 ![paket-admin](img/image8.png)
 
 Admin dapat menambahkan paket baru dengan cara menekan tombol "tambah Paket"
