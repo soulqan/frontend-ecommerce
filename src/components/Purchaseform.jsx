@@ -9,11 +9,10 @@ export default function PurchaseForm({ visible, onClose, pkg, user, onSuccess })
   const [step, setStep] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  // 🔹 Step 1 → lanjut ke Step 2
+  // Step 1 → lanjut ke Step 2
   const handleNext = async () => {
     try {
       const values = await form.validateFields(["phone"]);
-      // Pastikan nomor tersimpan agar tidak hilang di step berikutnya
       form.setFieldsValue({ phone: values.phone });
       message.success("Nomor telepon disimpan. Lanjut ke pembayaran ✅");
       setStep(1);
@@ -22,7 +21,7 @@ export default function PurchaseForm({ visible, onClose, pkg, user, onSuccess })
     }
   };
 
-  // 🔹 Step 2 → kirim transaksi ke server
+  // Step 2 → kirim transaksi ke server
   const handlePayment = async () => {
     try {
       const values = await form.validateFields(["paymentMethod", "phone"]);
@@ -56,10 +55,9 @@ export default function PurchaseForm({ visible, onClose, pkg, user, onSuccess })
     }
   };
 
-  // 🔹 Kembali ke step sebelumnya
   const handlePrev = () => setStep(0);
 
-  // 🔹 Reset ketika modal ditutup
+  // Reset ketika modal ditutup
   const handleCancel = () => {
     setStep(0);
     form.resetFields();
